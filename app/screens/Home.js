@@ -1,5 +1,7 @@
 import React from "react";
 import {View, Text,Style} from "react-native";
+import { Image } from 'react-native';
+
 export default function Home(){
     return(
         <View>

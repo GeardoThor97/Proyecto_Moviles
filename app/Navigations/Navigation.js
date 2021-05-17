@@ -1,18 +1,13 @@
 import React from "react";
 import {NavigationContainer} from "@react-navigation/native";
-//import { createStackNavigator } from '@react-navigation/stack';
+
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import { Text } from 'react-native-elements';
-//import CuentaStack from "./CuentaStack";
-import Login from "../screens/Login"
-//import Register from "../screens/Register"
 
-//import Cuenta from "../screens/Cuenta";
+import Login from "../screens/Login"
 import Home from "../screens/Home";
 import Settings from "../screens/Settings";
-//omar ya weeey
 
-//const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
 export default function navigation(){
@@ -37,7 +32,7 @@ return(
             component={Settings} 
             options={{title: 'Mi Configuracion'}}/>
         </Tab.Navigator>
-        
+       
     
         
 

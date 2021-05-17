@@ -10,8 +10,6 @@ import {
   Keyboard,
 } from 'react-native';
 
-
-
 // expo install expo-linear-gradient (For Expo Users)
 // Alternate: npm i react-native-linear-gradient (For non-expo users)
 import { LinearGradient } from 'expo-linear-gradient';
