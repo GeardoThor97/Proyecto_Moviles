@@ -10,6 +10,6 @@ export default function App  (){
         })
     return(
         <Navigation/>
-        
+        // geras puto .l.
     );
 }
