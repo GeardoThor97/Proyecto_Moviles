@@ -1,6 +1,8 @@
-import firebase from "firebase/app";
+import firebase from "firebase";
+import "firebase/firestore";
 
-const firebaseConfig = {
+
+var firebaseConfig = {
     apiKey: "AIzaSyCfItSSJdcf7K4RWK9r0LiNBhE6mnQmpgI",
     authDomain: "prueba-firebase-ef17c.firebaseapp.com",
     projectId: "prueba-firebase-ef17c",
@@ -8,5 +10,12 @@ const firebaseConfig = {
     messagingSenderId: "208101506625",
     appId: "1:208101506625:web:e2b274fdd40149236690c0"
   };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
-  export default firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore()
+
+  export default {
+      firebase,
+        db,
+  }
