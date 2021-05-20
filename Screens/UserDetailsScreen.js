@@ -80,7 +80,7 @@ const UserDetailScreen = (props) => {
       </View>
     );
   }
-
+  
   return (
     <ScrollView style={styles.container}>
       <View>
@@ -117,8 +117,14 @@ const UserDetailScreen = (props) => {
           color="#E37399"
         />
       </View>
+      <View style={styles.btn}>
+        <Button title="Update" onPress={() => updateUser()} color="#19AC52" 
+        />
+      </View>
       <View>
-        <Button title="Update" onPress={() => updateUser()} color="#19AC52" />
+
+        <Button title="Setting of Sensor" color="#20b2aa" 
+        />
       </View>
     </ScrollView>
   );
@@ -146,7 +152,7 @@ const styles = StyleSheet.create({
     borderBottomColor: "#cccccc",
   },
   btn: {
-    marginBottom: 7,
+    marginBottom: 10,
   },
 });
 

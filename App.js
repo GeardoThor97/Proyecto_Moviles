@@ -10,6 +10,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import CreateUserScreen from "./Screens/CreateUserScreen"
 import UserDetailScreen from "./Screens/UserDetailsScreen"
 import UsersList from "./Screens/UserList"
+import SettingSensor from "./Screens/SettingSensor"
 
 const Stack = createStackNavigator();
 
